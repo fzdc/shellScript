@@ -1,2 +1,0 @@
-# shellScript
-readme
