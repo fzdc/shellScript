@@ -1,0 +1,26 @@
+#命令档名查询
+which ifconfig
+which cd
+
+#文件名查询
+whereis
+选项与参数：
+-b    :只找 binary 格式的文件
+-m    :只找在说明档 manual 路径下的文件
+-s    :只找 source 来源文件
+-u    :搜寻不在上述三个项目当中的其他特殊文件
+
+
+locate
+[root@www ~]# locate [-ir] keyword
+选项与参数：
+-i  ：忽略大小写的差异；
+-r  ：后面可接正规表示法的显示方式
+
+范例一：找出系统中所有与 passwd 相关的档名
+[root@www ~]# locate passwd
+/etc/passwd
+/etc/passwd-
+/etc/news/passwd.nntp
+/etc/pam.d/passwd
+....(底下省略)....
