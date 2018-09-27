@@ -1,0 +1,22 @@
+
+[root@localhost shellScript]# date +%F
+2018-09-27
+[root@localhost shellScript]# date -d "+1 day" +%F
+2018-09-28
+[root@localhost shellScript]# date -d "+1 month" +%F
+2018-10-27
+[root@localhost shellScript]# date -d "+4 month" +%F
+2019-01-27
+[root@localhost shellScript]# date -d "+4 minute" +%H:%M:%S
+19:26:59
+[root@localhost shellScript]# date -d "+4 minute" +%H:%M:%S
+19:27:04
+[root@localhost shellScript]# date -d "-20 minute" +%H:%M:%S
+19:03:17
+[root@localhost shellScript]# date -d "-200 second" +%H:%M:%S
+19:20:27
+[root@localhost shellScript]# date -d "-1 year" +"%Y-%m-%d %H:%M:%S"
+2017-09-27 19:24:57
+[root@localhost shellScript]# date -d "2009-01-01" +"%Y-%m-%d %H:%M:%S"
+2009-01-01 00:00:00
+
